@@ -1,0 +1,18 @@
+{
+  "name": "certifide-pdf-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Puppeteer-based PDF generation microservice for Certifide inspection reports",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^24.0.0"
+  }
+}

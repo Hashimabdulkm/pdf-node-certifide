@@ -25,3 +25,13 @@ output/
 
 # Puppeteer cache
 .cache/
+.local-chromium/
+
+# package-lock (optional — remove if you want to commit it)
+# package-lock.json
+
+# Runtime / temp
+*.tmp
+*.temp
+pids/
+*.pid
