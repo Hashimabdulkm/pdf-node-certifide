@@ -1,0 +1,12 @@
+node_modules
+.env
+.env.*
+!.env.example
+.cache
+.local-chromium
+output
+*.pdf
+*.log
+logs
+.git
+.gitignore
